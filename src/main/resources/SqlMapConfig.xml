@@ -12,9 +12,9 @@
             <transactionManager type="JDBC"></transactionManager>
             <!-- 配置数据源/连接池 -->
             <dataSource type="POOLED">
-                <!-- 配置连接数据库的 四个基本信息 -->
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/learn_mybatis"/>
+                <!-- 配置连接数据库的 四个基本信息  -->
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/learn_mybatis?&useSSL=false&serverTimezone=UTC"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123456"/>
             </dataSource>
